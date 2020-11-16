@@ -16,8 +16,8 @@
     "nodemon": "2.0.4"
   },
   "scripts": {
-    "server": "nodemon --experimental-modules index.js",
-    "start": "node --experimental-modules index.js",
+    "server": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "nodemonConfig": {

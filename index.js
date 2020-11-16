@@ -5,8 +5,8 @@ import routes from './routes/routes';
 import path from 'path';
 import dotenv from 'dotenv';
 import winston from 'winston';
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
-console.log('passou aqui');
 /**
  * Faz a leitura do arquivo
  * ".env" por padrão
@@ -52,7 +52,7 @@ mongoose.connect(
   },
   (err) => {
     if (err) {
-      connectedToMongoDB = false;
+      //connectedToMongoDB = false;
       console.error(`Erro na conexão ao MongoDB - ${err}`);
     }
   }
@@ -75,7 +75,7 @@ global.logger = winston.createLogger({
 });
 
 connection.once('open', () => {
-  connectedToMongoDB = true;
+  //connectedToMongoDB = true;
   console.log('Conectado ao MongoDB');
 
   /**
