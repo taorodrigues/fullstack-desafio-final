@@ -19,51 +19,46 @@ export const getByPeriod = async (req, res, next) => {
     throw new Error('Period must be informed in the URL');
   }
 
-  let periodSplit = period.split('-');
-
-  const yearQuery = parseInt(periodSplit[0]);
-  const monthQuery = parseInt(periodSplit[1]);
-  const daysInMonth = getDaysInMonth(monthQuery, yearQuery);
-
   try {
     if (description) {
       console.log('Buscando com description');
       transactions = await TransactionModel.find({
-        year: {
-          $eq: yearQuery,
-        },
-        month: {
-          $eq: monthQuery,
-        },
-        day: {
-          $gte: 1,
-          $lt: daysInMonth,
+        yearMonth: {
+          $eq: period,
         },
         description: { $regex: description, $options: 'i' },
       });
     } else {
       transactions = await TransactionModel.find({
-        year: {
-          $eq: yearQuery,
-        },
-        month: {
-          $eq: monthQuery,
-        },
-        day: {
-          $gte: 1,
-          $lt: daysInMonth,
+        yearMonth: {
+          $eq: period,
         },
       });
     }
 
     console.log(transactions.length);
 
+    let expenses = 0;
+    let incomes = 0;
+    for (const item of transactions) {
+      if (item.type === '+') {
+        incomes += item.value;
+      } else {
+        expenses += item.value;
+      }
+    }
+    const totalValue = incomes - expenses;
+
     logger.info(
       `GET /transaction/period ${JSON.stringify(transactions, null, 2)}`
     );
+
     res.send({
-      length: transactions.length,
+      total: transactions.length,
       transactions: [...transactions],
+      incomes: incomes,
+      expenses: expenses,
+      totalValue: totalValue,
     });
   } catch (err) {
     next(err);
@@ -115,10 +110,10 @@ export const create = async (req, res) => {
   }
 };
 
-var getDaysInMonth = function (month, year) {
-  // Here January is 1 based
-  //Day 0 is the last day in the previous month
-  return new Date(year, month, 0).getDate();
-  // Here January is 0 based
-  // return new Date(year, month+1, 0).getDate();
-};
+// var getDaysInMonth = function (month, year) {
+//   // Here January is 1 based
+//   //Day 0 is the last day in the previous month
+//   return new Date(year, month, 0).getDate();
+//   // Here January is 0 based
+//   // return new Date(year, month+1, 0).getDate();
+// };
