@@ -21,8 +21,6 @@ function sortTransactions(transactions) {
   );
 }
 
-const APP_VERSION = 'v1.0.6';
-
 function getCurrentPeriod(allPeriods) {
   const date = new Date();
   const year = date.getFullYear();
@@ -58,7 +56,7 @@ export default function App() {
     /**
      * Título da aba
      */
-    document.title = `CFP ${APP_VERSION}`;
+    document.title = `El Financiero`;
   }, []);
 
   useEffect(() => {
@@ -192,8 +190,8 @@ export default function App() {
   return (
     <div className="container">
       <div className="center">
-        <h1>Bootcamp Full Stack - Desafio Final</h1>
-        <h2>Controle Financeiro Pessoal</h2>
+        <h1>El Financiero</h1>
+        <h2>Full Stack - Final Challenge</h2>
       </div>
 
       {!isModalOpen && (

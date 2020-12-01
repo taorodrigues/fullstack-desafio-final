@@ -15,17 +15,17 @@ export default function Actions({ filterText, onFilter, onNewTransaction }) {
   return (
     <div style={containerStyle}>
       <button
-        className='waves-effect waves-light btn'
+        className="waves-effect waves-light btn"
         disabled={filterText.trim() !== ''}
         onClick={handleButtonClick}
       >
-        + Novo lançamento
+        + New Transaction
       </button>
 
-      <div className='input-field' style={inputStyle}>
+      <div className="input-field" style={inputStyle}>
         <input
-          placeholder='Filtro'
-          type='text'
+          placeholder="Description Search"
+          type="text"
           value={filterText}
           onChange={handleChangeFilterText}
         />

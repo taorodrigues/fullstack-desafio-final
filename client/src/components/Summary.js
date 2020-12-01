@@ -14,27 +14,27 @@ export default function Summary({ summary }) {
   return (
     <div style={containerStyle}>
       <span>
-        <strong>Lançamentos: </strong>
+        <strong>Transactions: </strong>
         {countTransactions}
       </span>
 
       <span>
         <strong>
-          Receitas:{' '}
+          Incomes:{' '}
           <span style={earningStyle}>{formatMoney(totalEarnings)}</span>
         </strong>
       </span>
 
       <span>
         <strong>
-          Despesas:{' '}
+          Expenses:{' '}
           <span style={expenseStyle}>{formatMoney(totalExpenses)}</span>
         </strong>
       </span>
 
       <span>
         <strong>
-          Saldo: <span style={balanceStyle}>{formatMoney(balance)}</span>
+          Balance: <span style={balanceStyle}>{formatMoney(balance)}</span>
         </strong>
       </span>
     </div>
