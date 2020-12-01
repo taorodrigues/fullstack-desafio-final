@@ -1,6 +1,5 @@
 import TransactionModel from '../models/TransactionModel';
-import mongoose from 'mongoose';
-const ObjectId = mongoose.Types.ObjectId;
+import dateHelpers from '../helpers/dateHelpers';
 
 export const get = async (req, res, next) => {
   const period = req.query.period;
@@ -46,19 +45,20 @@ export const get = async (req, res, next) => {
 
     res.send({
       total: transactions.length,
-      transactions: [...transactions],
       incomes: incomes,
       expenses: expenses,
       saldo: totalValue,
+      transactions: [...transactions],
     });
   } catch (err) {
     next(err);
   }
 };
 
-export const getById = async (req, res, next) => {
+export const getById = async (request, res, next) => {
   try {
-    const id = req.params.id;
+    await validateTransactionId(request.params);
+    const id = request.params.id;
 
     const transaction = await TransactionModel.find({ _id: id });
     logger.info(
@@ -72,8 +72,8 @@ export const getById = async (req, res, next) => {
 
 export const removeTransaction = async (req, res, next) => {
   try {
+    await validateTransactionId(params);
     const id = req.params.id;
-    console.log(id);
 
     const transaction = await TransactionModel.findOneAndDelete({ _id: id });
     logger.info(
@@ -85,18 +85,111 @@ export const removeTransaction = async (req, res, next) => {
   }
 };
 
-export const create = async (req, res) => {
-  const transaction = new TransactionModel(req.body);
-  console.log('Create Body' + req.body);
-
+export const create = async (request, response, next) => {
   try {
+    await validateTransactionData(request.body);
+    const transaction = new TransactionModel(request.body);
+
     await TransactionModel.create(transaction);
+
     logger.info(`POST /transaction - ${JSON.stringify(transaction)}`);
-    res.send(transaction);
+
+    response.send(transaction);
   } catch (error) {
-    res
-      .status(500)
-      .send({ message: error.message || 'Algum erro ocorreu ao salvar' });
-    logger.error(`POST /transaction - ${JSON.stringify(error.message)}`);
+    next(error);
   }
 };
+
+export const update = async (request, response, next) => {
+  const { body, params } = request;
+
+  try {
+    await validateTransactionId(params);
+    await validateTransactionData(body);
+
+    const { description, value, category, year, month, day, type } = body;
+    const { id } = params;
+
+    const period = dateHelpers.createPeriodFrom(year, month);
+
+    const transaction = {
+      description,
+      value,
+      category,
+      year,
+      month,
+      day,
+      yearMonth: period,
+      yearMonthDay: dateHelpers.createDateFrom(year, month, day),
+      type,
+    };
+
+    const transactionUpdated = await TransactionModel.findOneAndUpdate(
+      { _id: id },
+      transaction,
+      {
+        new: true, //this parameter makes the query return the updated object
+      }
+    );
+
+    logger.info(
+      `PUT /transaction/id=${id} - ${JSON.stringify(transactionUpdated)}`
+    );
+
+    response.send({ transaction: transactionUpdated });
+  } catch (error) {
+    next(error);
+  }
+};
+
+async function validateTransactionId(params) {
+  if (!params.id) {
+    throw new Error('The id must be informed');
+  }
+}
+
+async function validateTransactionData(body) {
+  const { description, value, category, year, month, day, type } = body;
+
+  if (!description || description.trim() === '') {
+    throw new Error('description is mandatory');
+  }
+
+  if (!value || value < 0) {
+    throw new Error('value is mandatory');
+  }
+
+  if (!category || category.trim() === '') {
+    throw new Error('category is mandatory');
+  }
+
+  if (!year || year.toString() === '') {
+    throw new Error(`year is mandatory`);
+  }
+
+  if (!month || month.toString() === '') {
+    throw new Error(`month is mandatory`);
+  }
+
+  if (!day || day.toString() === '') {
+    throw new Error(`day is mandatory`);
+  }
+
+  if (!type || type.toString() === '') {
+    throw new Error(
+      `type is mandatory (can be '+' for income or '-' for outcome)`
+    );
+  }
+
+  if (value < 0) {
+    throw new Error('value must be a number bigger or equal to 0');
+  }
+
+  const period = dateHelpers.createPeriodFrom(year, month);
+  dateHelpers.validatePeriod(period);
+  dateHelpers.validateDay(day, month, year);
+
+  if (type.trim() !== '+' && type.trim() !== '-') {
+    throw new Error(`Invalid type (${type}) - must have the value '+' or '-'`);
+  }
+}

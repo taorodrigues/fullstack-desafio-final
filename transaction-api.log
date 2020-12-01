@@ -1898,3 +1898,1056 @@
     "type": "-"
   }
 ]
+2020-12-01T18:10:43.148Z [transaction-api] info: GET /transaction/period [
+  {
+    "_id": "5fb3d4dc39a29e288ce8a345",
+    "description": "Compras em hortifruti",
+    "value": 48,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 1,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-01",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a346",
+    "description": "Emergência com acidente caseiro",
+    "value": 26,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 1,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-01",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a347",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 14,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 1,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-01",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a348",
+    "description": "Salário",
+    "value": 4000,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 1,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-01",
+    "type": "+"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a349",
+    "description": "Emergência com acidente caseiro",
+    "value": 39,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 2,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-02",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34a",
+    "description": "Viagem para a praia",
+    "value": 32,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 3,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-03",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34b",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 29,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 3,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-03",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34c",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 10,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 3,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-03",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34d",
+    "description": "Viagem para a praia",
+    "value": 20,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 4,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-04",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34e",
+    "description": "Compras em padaria",
+    "value": 47,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 4,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-04",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a34f",
+    "description": "Internação em hospital",
+    "value": 21,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 5,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-05",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a350",
+    "description": "Táxi para o aeroporto",
+    "value": 45,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 5,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-05",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a351",
+    "description": "Renda extra com vendas",
+    "value": 43,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 6,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-06",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a352",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 10,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 6,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-06",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a353",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 45,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 7,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-07",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a354",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 46,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 8,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-08",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a355",
+    "description": "Emergência com acidente caseiro",
+    "value": 10,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 8,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-08",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a356",
+    "description": "Almoço em restaurante",
+    "value": 45,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 9,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-09",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a357",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 34,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 9,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-09",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a358",
+    "description": "Viagem para a praia",
+    "value": 13,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 10,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-10",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a359",
+    "description": "Táxi para o aeroporto",
+    "value": 20,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 10,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-10",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35a",
+    "description": "Almoço em restaurante",
+    "value": 41,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 11,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-11",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35b",
+    "description": "Compras em hortifruti",
+    "value": 30,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 11,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-11",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35c",
+    "description": "Renda extra com vendas",
+    "value": 21,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 11,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-11",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35d",
+    "description": "Emergência com acidente caseiro",
+    "value": 43,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 11,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-11",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35e",
+    "description": "Viagem para a praia",
+    "value": 41,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 12,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-12",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a35f",
+    "description": "Compras em padaria",
+    "value": 34,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 12,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-12",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a360",
+    "description": "Renda extra com vendas",
+    "value": 43,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 12,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-12",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a361",
+    "description": "Internação em hospital",
+    "value": 29,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 12,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-12",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a362",
+    "description": "Táxi para o aeroporto",
+    "value": 27,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 12,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-12",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a363",
+    "description": "Almoço em restaurante",
+    "value": 25,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 13,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-13",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a364",
+    "description": "Almoço em restaurante",
+    "value": 13,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 14,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-14",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a365",
+    "description": "Compras em hortifruti",
+    "value": 35,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 14,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-14",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a366",
+    "description": "Renda extra com vendas",
+    "value": 29,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 14,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-14",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a367",
+    "description": "Almoço em restaurante",
+    "value": 10,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 15,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-15",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a368",
+    "description": "Compras em padaria",
+    "value": 26,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 15,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-15",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a369",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 27,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 15,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-15",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36a",
+    "description": "Internação em hospital",
+    "value": 10,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 15,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-15",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36b",
+    "description": "Táxi para o aeroporto",
+    "value": 21,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 15,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-15",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36c",
+    "description": "Viagem para a praia",
+    "value": 26,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 16,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-16",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36d",
+    "description": "Renda extra com vendas",
+    "value": 10,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 16,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-16",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36e",
+    "description": "Viagem para a praia",
+    "value": 22,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 17,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-17",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a36f",
+    "description": "Renda extra com vendas",
+    "value": 19,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 17,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-17",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a370",
+    "description": "Emergência com acidente caseiro",
+    "value": 22,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 17,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-17",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a371",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 25,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 17,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-17",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a372",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 39,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 18,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-18",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a373",
+    "description": "Compras em hortifruti",
+    "value": 10,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 19,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-19",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a374",
+    "description": "Emergência com acidente caseiro",
+    "value": 43,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 19,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-19",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a375",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 11,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 19,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-19",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a376",
+    "description": "Renda extra com vendas",
+    "value": 10,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 20,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-20",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a377",
+    "description": "Táxi para o aeroporto",
+    "value": 10,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 20,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-20",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a378",
+    "description": "Viagem para a praia",
+    "value": 10,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 21,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-21",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a379",
+    "description": "Renda extra com vendas",
+    "value": 31,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 21,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-21",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37a",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 10,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 21,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-21",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37b",
+    "description": "Viagem para a praia",
+    "value": 48,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 22,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-22",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37c",
+    "description": "Compras em hortifruti",
+    "value": 48,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 22,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-22",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37d",
+    "description": "Renda extra com vendas",
+    "value": 10,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 22,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-22",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37e",
+    "description": "Táxi para o aeroporto",
+    "value": 41,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 22,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-22",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a37f",
+    "description": "Almoço em restaurante",
+    "value": 16,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 23,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-23",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a380",
+    "description": "Emergência com acidente caseiro",
+    "value": 43,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 23,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-23",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a381",
+    "description": "Táxi para o aeroporto",
+    "value": 43,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 23,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-23",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a382",
+    "description": "Almoço em restaurante",
+    "value": 49,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 24,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-24",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a383",
+    "description": "Compras em padaria",
+    "value": 50,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 24,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-24",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a384",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 34,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 24,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-24",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a385",
+    "description": "Internação em hospital",
+    "value": 50,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 24,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-24",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a386",
+    "description": "Utilização de aplicativo de transporte",
+    "value": 10,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 24,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-24",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a387",
+    "description": "Viagem para a praia",
+    "value": 42,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 25,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-25",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a388",
+    "description": "Compras em hortifruti",
+    "value": 30,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 25,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-25",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a389",
+    "description": "Renda extra com vendas",
+    "value": 12,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 25,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-25",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38a",
+    "description": "Táxi para o aeroporto",
+    "value": 11,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 25,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-25",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38b",
+    "description": "Viagem para a praia",
+    "value": 42,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 26,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-26",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38c",
+    "description": "Compras em hortifruti",
+    "value": 42,
+    "category": "Mercado",
+    "year": 2021,
+    "month": 8,
+    "day": 26,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-26",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38d",
+    "description": "Renda extra com vendas",
+    "value": 27,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 26,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-26",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38e",
+    "description": "Táxi para o aeroporto",
+    "value": 21,
+    "category": "Transporte",
+    "year": 2021,
+    "month": 8,
+    "day": 26,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-26",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a38f",
+    "description": "Renda extra com vendas",
+    "value": 44,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 27,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-27",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a390",
+    "description": "Emergência com acidente caseiro",
+    "value": 36,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 27,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-27",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a391",
+    "description": "Almoço em restaurante",
+    "value": 10,
+    "category": "Lazer",
+    "year": 2021,
+    "month": 8,
+    "day": 28,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-28",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a392",
+    "description": "Consultoria de desenvolvimento de sistemas",
+    "value": 10,
+    "category": "Receita",
+    "year": 2021,
+    "month": 8,
+    "day": 28,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-28",
+    "type": "-"
+  },
+  {
+    "_id": "5fb3d4dc39a29e288ce8a393",
+    "description": "Emergência com acidente caseiro",
+    "value": 10,
+    "category": "Saúde",
+    "year": 2021,
+    "month": 8,
+    "day": 28,
+    "yearMonth": "2021-08",
+    "yearMonthDay": "2021-08-28",
+    "type": "-"
+  }
+]
+2020-12-01T18:25:37.915Z [transaction-api] info: POST /transaction - {"_id":"5fc68a9fb1a1a34588e260fb","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:25:43.416Z [transaction-api] info: POST /transaction - {"_id":"5fc68aa7b1a1a34588e260fc","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:25:55.292Z [transaction-api] info: POST /transaction - {"_id":"5fc68ab3b1a1a34588e260fd","description":"Receita questao 12","category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:27:15.801Z [transaction-api] info: POST /transaction - {"_id":"5fc68b022495d24af08344cd","description":"Receita questao 12","category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:27:56.499Z [transaction-api] info: POST /transaction - {"_id":"5fc68b2a0d34fa20f032c163","description":"Receita questao 12","category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:30:36.531Z [transaction-api] error: POST /transaction - "O valor é obrigatório."
+2020-12-01T18:30:53.422Z [transaction-api] error: POST /transaction - "O valor é obrigatório."
+2020-12-01T18:31:09.341Z [transaction-api] error: POST /api/transaction - O valor é obrigatório.
+2020-12-01T18:31:10.856Z [transaction-api] error: POST /api/transaction - O valor é obrigatório.
+2020-12-01T18:31:18.880Z [transaction-api] error: POST /api/transaction - O valor é obrigatório.
+2020-12-01T18:38:29.639Z [transaction-api] info: POST /transaction - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:48:00.528Z [transaction-api] error: PUT /api/transaction - É necessário informar o id do lançamento
+2020-12-01T18:48:29.327Z [transaction-api] error: PUT /api/transaction - É necessário informar o id do lançamento
+2020-12-01T18:49:07.880Z [transaction-api] error: PUT /api/transaction - _id is not defined
+2020-12-01T18:49:22.162Z [transaction-api] error: PUT /api/transaction - _id is not defined
+2020-12-01T18:49:42.472Z [transaction-api] error: PUT /api/transaction - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-12-01T18:50:16.540Z [transaction-api] error: PUT /api/transaction - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-12-01T18:51:32.470Z [transaction-api] error: PUT /api/transaction - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-12-01T18:52:33.496Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+"}
+2020-12-01T18:52:41.474Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"description":"Receita questao 10","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+"}
+2020-12-01T18:52:47.160Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"description":"teste","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+"}
+2020-12-01T18:54:26.848Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:54:28.549Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:02.479Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:12.251Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:13.157Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:21.507Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:22.363Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:55:41.166Z [transaction-api] error: GET /api/transaction - params is not defined
+2020-12-01T18:56:13.261Z [transaction-api] info: GET /transaction/id=5fb16a401dc8521144300c40 []
+2020-12-01T18:56:23.232Z [transaction-api] info: GET /transaction/id=5fc68da4cf155f4f8c9f2764 [
+  {
+    "_id": "5fc68da4cf155f4f8c9f2764",
+    "description": "Receita questao 12",
+    "value": 2900,
+    "category": "Transporte",
+    "year": 2019,
+    "month": 7,
+    "day": 1,
+    "yearMonth": "2019-07",
+    "yearMonthDay": "2019-07-01",
+    "type": "+",
+    "__v": 0
+  }
+]
+2020-12-01T18:56:31.247Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"description":"teste","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+"}
+2020-12-01T18:56:33.957Z [transaction-api] info: GET /transaction/id=5fc68da4cf155f4f8c9f2764 [
+  {
+    "_id": "5fc68da4cf155f4f8c9f2764",
+    "description": "Receita questao 12",
+    "value": 2900,
+    "category": "Transporte",
+    "year": 2019,
+    "month": 7,
+    "day": 1,
+    "yearMonth": "2019-07",
+    "yearMonthDay": "2019-07-01",
+    "type": "+",
+    "__v": 0
+  }
+]
+2020-12-01T18:57:44.762Z [transaction-api] info: GET /transaction/id=5fc68da4cf155f4f8c9f2764 [
+  {
+    "_id": "5fc68da4cf155f4f8c9f2764",
+    "description": "Receita questao 12",
+    "value": 2900,
+    "category": "Transporte",
+    "year": 2019,
+    "month": 7,
+    "day": 1,
+    "yearMonth": "2019-07",
+    "yearMonthDay": "2019-07-01",
+    "type": "+",
+    "__v": 0
+  }
+]
+2020-12-01T18:57:48.647Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:57:56.873Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:57:59.978Z [transaction-api] info: GET /transaction/id=5fc68da4cf155f4f8c9f2764 [
+  {
+    "_id": "5fc68da4cf155f4f8c9f2764",
+    "description": "Receita questao 12",
+    "value": 2900,
+    "category": "Transporte",
+    "year": 2019,
+    "month": 7,
+    "day": 1,
+    "yearMonth": "2019-07",
+    "yearMonthDay": "2019-07-01",
+    "type": "+",
+    "__v": 0
+  }
+]
+2020-12-01T18:58:36.459Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T18:58:43.074Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T19:00:21.729Z [transaction-api] error: PUT /api/transaction - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-12-01T19:00:23.963Z [transaction-api] error: PUT /api/transaction - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-12-01T19:00:42.800Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T19:01:13.350Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T19:02:10.275Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"Receita questao 12","value":2900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T19:09:06.027Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"teste","value":900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
+2020-12-01T19:12:26.462Z [transaction-api] error: PUT /api/transaction - O valor é obrigatório.
+2020-12-01T19:12:30.911Z [transaction-api] info: PUT /transaction/id=5fc68da4cf155f4f8c9f2764 - {"_id":"5fc68da4cf155f4f8c9f2764","description":"teste","value":900,"category":"Transporte","year":2019,"month":7,"day":1,"yearMonth":"2019-07","yearMonthDay":"2019-07-01","type":"+","__v":0}
