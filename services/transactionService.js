@@ -79,7 +79,10 @@ export const removeTransaction = async (req, res, next) => {
     logger.info(
       `DELETE /transaction/id=${id} ${JSON.stringify(transaction, null, 2)}`
     );
-    res.send(`The transaction with id ${id} was deleted.`);
+    res.send({
+      status: 'ok',
+      message: `The transaction with id ${id} was deleted.`,
+    });
   } catch (err) {
     next(err);
   }
@@ -94,7 +97,7 @@ export const create = async (request, response, next) => {
 
     logger.info(`POST /transaction - ${JSON.stringify(transaction)}`);
 
-    response.send(transaction);
+    response.send({ status: 'ok', transaction: newTransaction });
   } catch (error) {
     next(error);
   }
