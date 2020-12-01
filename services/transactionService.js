@@ -72,7 +72,7 @@ export const getById = async (request, res, next) => {
 
 export const removeTransaction = async (req, res, next) => {
   try {
-    await validateTransactionId(params);
+    await validateTransactionId(req.params);
     const id = req.params.id;
 
     const transaction = await TransactionModel.findOneAndDelete({ _id: id });
@@ -97,7 +97,7 @@ export const create = async (request, response, next) => {
 
     logger.info(`POST /transaction - ${JSON.stringify(transaction)}`);
 
-    response.send({ status: 'ok', transaction: newTransaction });
+    response.send({ status: 'ok', transaction: transaction });
   } catch (error) {
     next(error);
   }

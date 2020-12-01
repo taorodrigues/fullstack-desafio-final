@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 app.get('/api/', (_, response) => {
   response.send({
     message:
-      'Bem-vindo à API de lançamentos. Acesse /transaction e siga as orientações',
+      'Welcome to transaction API. You can access /transaction and follow the instructions.',
   });
 });
 
@@ -51,7 +51,7 @@ mongoose.connect(
   (err) => {
     if (err) {
       //connectedToMongoDB = false;
-      console.error(`Erro na conexão ao MongoDB - ${err}`);
+      console.error(`Error when trying to connect to MongoDB - ${err}`);
     }
   }
 );
@@ -74,7 +74,7 @@ global.logger = winston.createLogger({
 
 connection.once('open', () => {
   //connectedToMongoDB = true;
-  console.log('Conectado ao MongoDB');
+  console.log('Connected to MongoDB');
 
   /**
    * Definição de porta e
@@ -82,6 +82,6 @@ connection.once('open', () => {
    */
   const APP_PORT = process.env.PORT || 3001;
   app.listen(APP_PORT, () => {
-    console.log(`Servidor iniciado na porta ${APP_PORT}`);
+    console.log(`The Server was iniciated at PORT ${APP_PORT}`);
   });
 });
