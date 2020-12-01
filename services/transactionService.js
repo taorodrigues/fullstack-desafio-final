@@ -1,19 +1,11 @@
+import TransactionModel from '../models/TransactionModel';
 import mongoose from 'mongoose';
 const ObjectId = mongoose.Types.ObjectId;
 
-// Aqui havia um erro difícil de pegar. Importei como "transactionModel",
-// com "t" minúsculo. No Windows, isso não faz diferença. Mas como no Heroku
-// o servidor é Linux, isso faz diferença. Gastei umas boas horas tentando
-// descobrir esse erro :-/
-import TransactionModel from '../models/TransactionModel';
-
-export const getByPeriod = async (req, res, next) => {
+export const get = async (req, res, next) => {
   const period = req.query.period;
   const description = req.query.description;
   let transactions = [];
-
-  console.log(period);
-  console.log(description);
 
   if (!period) {
     throw new Error('Period must be informed in the URL');
@@ -21,7 +13,6 @@ export const getByPeriod = async (req, res, next) => {
 
   try {
     if (description) {
-      console.log('Buscando com description');
       transactions = await TransactionModel.find({
         yearMonth: {
           $eq: period,
@@ -58,7 +49,7 @@ export const getByPeriod = async (req, res, next) => {
       transactions: [...transactions],
       incomes: incomes,
       expenses: expenses,
-      totalValue: totalValue,
+      saldo: totalValue,
     });
   } catch (err) {
     next(err);
@@ -109,11 +100,3 @@ export const create = async (req, res) => {
     logger.error(`POST /transaction - ${JSON.stringify(error.message)}`);
   }
 };
-
-// var getDaysInMonth = function (month, year) {
-//   // Here January is 1 based
-//   //Day 0 is the last day in the previous month
-//   return new Date(year, month, 0).getDate();
-//   // Here January is 0 based
-//   // return new Date(year, month+1, 0).getDate();
-// };
