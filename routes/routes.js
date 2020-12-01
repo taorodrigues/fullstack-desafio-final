@@ -2,7 +2,6 @@ import * as controller from '../services/transactionService';
 import express from 'express';
 
 const transactionRouter = express.Router();
-s;
 
 transactionRouter.get('/getById/:id', controller.getById);
 transactionRouter.get('/', controller.get);
