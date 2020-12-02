@@ -30,3 +30,7 @@ $ cd app
 $ yarn
 $ yarn server
 ```
+
+### API Test
+
+You can import the Postman collection and run it.
