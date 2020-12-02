@@ -110,8 +110,7 @@ export default function ModalTransaction({
     return description.trim() !== '' && category.trim() !== '';
   };
 
-  const title =
-    mode === 'insert' ? 'Inclusão de lançamento' : 'Edição de lançamento';
+  const title = mode === 'insert' ? 'New Transaction' : 'Transaction Edition';
 
   const {
     headerStyle,
@@ -133,13 +132,13 @@ export default function ModalTransaction({
       : earningExpenseStyle;
 
   return (
-    <Modal isOpen={isOpen} contentLabel='Example Modal' style={modalStyle}>
+    <Modal isOpen={isOpen} contentLabel="Example Modal" style={modalStyle}>
       <div>
         <div style={headerStyle}>
           <h3 style={{ marginRight: '10px', fontWeight: 'bold' }}>{title}</h3>
 
           <button
-            className='waves-effect waves-light btn red darken-4'
+            className="waves-effect waves-light btn red darken-4"
             onClick={handleCloseClick}
           >
             X
@@ -151,76 +150,76 @@ export default function ModalTransaction({
             <div style={radioStyle}>
               <label style={{ ...radioButtonStyle }}>
                 <input
-                  name='expense-earning'
-                  type='radio'
-                  value='-'
+                  name="expense-earning"
+                  type="radio"
+                  value="-"
                   checked={type === '-'}
                   onChange={handleTypeChange}
                   disabled={mode !== 'insert'}
                 />
-                <span style={expenseTextStyle}>Despesa</span>
+                <span style={expenseTextStyle}>Expense</span>
               </label>
 
               <label style={radioButtonStyle}>
                 <input
-                  name='expense-earning'
-                  type='radio'
-                  value='+'
+                  name="expense-earning"
+                  type="radio"
+                  value="+"
                   checked={type === '+'}
                   onChange={handleTypeChange}
                   disabled={mode !== 'insert'}
                 />
-                <span style={earningTextStyle}>Receita</span>
+                <span style={earningTextStyle}>Income</span>
               </label>
             </div>
 
-            <div className='input-field '>
+            <div className="input-field ">
               <input
-                id='inputDescription'
-                type='text'
+                id="inputDescription"
+                type="text"
                 value={description}
                 onChange={handleDescriptionChange}
                 autoFocus
                 required
               />
-              <label htmlFor='inputDescription' className='active'>
-                Descrição:
+              <label htmlFor="inputDescription" className="active">
+                Description:
               </label>
             </div>
 
-            <div className='input-field '>
+            <div className="input-field ">
               <input
-                id='inputCategory'
-                type='text'
+                id="inputCategory"
+                type="text"
                 value={category}
                 onChange={handleCategoryChange}
                 required
               />
-              <label htmlFor='inputCategory' className='active'>
-                Categoria:
+              <label htmlFor="inputCategory" className="active">
+                Category:
               </label>
             </div>
 
             <div style={headerStyle}>
-              <div className='input-field' style={{ marginRight: '10px' }}>
+              <div className="input-field" style={{ marginRight: '10px' }}>
                 <input
-                  id='inputValue'
-                  type='number'
-                  min='0'
-                  step='0.01'
+                  id="inputValue"
+                  type="number"
+                  min="0"
+                  step="0.01"
                   value={value}
                   onChange={handleValueChange}
                   required
                 />
-                <label htmlFor='inputValue' className='active'>
-                  Valor:
+                <label htmlFor="inputValue" className="active">
+                  Value:
                 </label>
               </div>
 
               <input
-                placeholder='Data'
-                type='date'
-                className='browser-default'
+                placeholder="Data"
+                type="date"
+                className="browser-default"
                 value={date}
                 onChange={handleDateChange}
                 required
@@ -229,9 +228,9 @@ export default function ModalTransaction({
           </div>
 
           <input
-            type='submit'
-            className='waves-effect waves-light btn'
-            value='Salvar'
+            type="submit"
+            className="waves-effect waves-light btn"
+            value="Save"
             disabled={!canSave()}
           />
         </form>

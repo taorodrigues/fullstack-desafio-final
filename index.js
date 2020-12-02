@@ -8,8 +8,7 @@ import winston from 'winston';
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 /**
- * Faz a leitura do arquivo
- * ".env" por padrão
+ * Read the file ".env" by default
  */
 dotenv.config();
 
@@ -18,12 +17,12 @@ app.use(cors());
 app.use(express.json());
 
 /**
- * Vinculando o React ao app
+ * Connect the api to the React App
  */
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 /**
- * Rota raiz
+ * Root route
  */
 app.get('/api/', (_, response) => {
   response.send({
@@ -33,12 +32,12 @@ app.get('/api/', (_, response) => {
 });
 
 /**
- * Rotas principais do app
+ * Main routes
  */
 app.use('/api/transaction', routes);
 
 /**
- * Conexão ao Banco de Dados
+ * Database connection
  */
 const { DB_CONNECTION } = process.env;
 
@@ -77,8 +76,7 @@ connection.once('open', () => {
   console.log('Connected to MongoDB');
 
   /**
-   * Definição de porta e
-   * inicialização do app
+   * Declaring PORT and starting the app
    */
   const APP_PORT = process.env.PORT || 3001;
   app.listen(APP_PORT, () => {

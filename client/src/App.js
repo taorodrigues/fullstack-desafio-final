@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 /**
- * Interface com API
+ * Interface with API
  */
 import * as api from './api/apiService';
 
 /**
- * Componentes
+ * Components
  */
 import PeriodSelector from './components/PeriodSelector';
 import Transactions from './components/Transactions';
@@ -54,7 +54,7 @@ export default function App() {
     getAllPeriods();
 
     /**
-     * Título da aba
+     * Tab title
      */
     document.title = `El Financiero`;
   }, []);

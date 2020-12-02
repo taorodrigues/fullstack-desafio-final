@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 /**
- * Importação do Materialize CSS
+ * Importing Materialize CSS
  */
 import 'materialize-css/dist/css/materialize.min.css';
 
